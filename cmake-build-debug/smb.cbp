@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="smb"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\SDL2\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/caio/Área de Trabalho/jogos/super-mario-bros/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/caio/Área\ de\ Trabalho/jogos/super-mario-bros/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/caio/Área\ de\ Trabalho/jogos/super-mario-bros/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/caio/Área\ de\ Trabalho/jogos/super-mario-bros/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/caio/Área\ de\ Trabalho/jogos/super-mario-bros/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="smb">
+				<Option output="/home/caio/Área de Trabalho/jogos/super-mario-bros/bin/smb-Debug" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/caio/Área de Trabalho/jogos/super-mario-bros/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/caio/Área de Trabalho/jogos/super-mario-bros/include"/>
+					<Add directory="/home/caio/Área de Trabalho/jogos/super-mario-bros/vendor"/>
+					<Add directory="/usr/local/include/SDL2"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/caio/Área\ de\ Trabalho/jogos/super-mario-bros/cmake-build-debug/Makefile&quot;  VERBOSE=1 smb"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/caio/Área\ de\ Trabalho/jogos/super-mario-bros/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/caio/Área\ de\ Trabalho/jogos/super-mario-bros/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/caio/Área\ de\ Trabalho/jogos/super-mario-bros/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="smb/fast">
+				<Option output="/home/caio/Área de Trabalho/jogos/super-mario-bros/bin/smb-Debug" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/caio/Área de Trabalho/jogos/super-mario-bros/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/caio/Área de Trabalho/jogos/super-mario-bros/include"/>
+					<Add directory="/home/caio/Área de Trabalho/jogos/super-mario-bros/vendor"/>
+					<Add directory="/usr/local/include/SDL2"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/caio/Área\ de\ Trabalho/jogos/super-mario-bros/cmake-build-debug/Makefile&quot;  VERBOSE=1 smb/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/caio/Área\ de\ Trabalho/jogos/super-mario-bros/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/caio/Área\ de\ Trabalho/jogos/super-mario-bros/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/caio/Área\ de\ Trabalho/jogos/super-mario-bros/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/caio/Área de Trabalho/jogos/super-mario-bros/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/caio/Área\ de\ Trabalho/jogos/super-mario-bros/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/caio/Área\ de\ Trabalho/jogos/super-mario-bros/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/caio/Área\ de\ Trabalho/jogos/super-mario-bros/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/caio/Área\ de\ Trabalho/jogos/super-mario-bros/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/caio/Área de Trabalho/jogos/super-mario-bros/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/caio/Área\ de\ Trabalho/jogos/super-mario-bros/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/caio/Área\ de\ Trabalho/jogos/super-mario-bros/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/caio/Área\ de\ Trabalho/jogos/super-mario-bros/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/caio/Área\ de\ Trabalho/jogos/super-mario-bros/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/caio/Área de Trabalho/jogos/super-mario-bros/src/AABB.cpp">
+			<Option target="smb"/>
+		</Unit>
+		<Unit filename="/home/caio/Área de Trabalho/jogos/super-mario-bros/src/Game.cpp">
+			<Option target="smb"/>
+		</Unit>
+		<Unit filename="/home/caio/Área de Trabalho/jogos/super-mario-bros/src/Main.cpp">
+			<Option target="smb"/>
+		</Unit>
+		<Unit filename="/home/caio/Área de Trabalho/jogos/super-mario-bros/src/SoundManager.cpp">
+			<Option target="smb"/>
+		</Unit>
+		<Unit filename="/home/caio/Área de Trabalho/jogos/super-mario-bros/src/TextureManager.cpp">
+			<Option target="smb"/>
+		</Unit>
+		<Unit filename="/home/caio/Área de Trabalho/jogos/super-mario-bros/src/scenes/EditorScene.cpp">
+			<Option target="smb"/>
+		</Unit>
+		<Unit filename="/home/caio/Área de Trabalho/jogos/super-mario-bros/src/scenes/GameScene.cpp">
+			<Option target="smb"/>
+		</Unit>
+		<Unit filename="/home/caio/Área de Trabalho/jogos/super-mario-bros/src/scenes/IntroScene.cpp">
+			<Option target="smb"/>
+		</Unit>
+		<Unit filename="/home/caio/Área de Trabalho/jogos/super-mario-bros/src/systems/AnimationSystem.cpp">
+			<Option target="smb"/>
+		</Unit>
+		<Unit filename="/home/caio/Área de Trabalho/jogos/super-mario-bros/src/systems/CallbackSystem.cpp">
+			<Option target="smb"/>
+		</Unit>
+		<Unit filename="/home/caio/Área de Trabalho/jogos/super-mario-bros/src/systems/EditorSystem.cpp">
+			<Option target="smb"/>
+		</Unit>
+		<Unit filename="/home/caio/Área de Trabalho/jogos/super-mario-bros/src/systems/EnemySystem.cpp">
+			<Option target="smb"/>
+		</Unit>
+		<Unit filename="/home/caio/Área de Trabalho/jogos/super-mario-bros/src/systems/FlagSystem.cpp">
+			<Option target="smb"/>
+		</Unit>
+		<Unit filename="/home/caio/Área de Trabalho/jogos/super-mario-bros/src/systems/MapSystem.cpp">
+			<Option target="smb"/>
+		</Unit>
+		<Unit filename="/home/caio/Área de Trabalho/jogos/super-mario-bros/src/systems/PhysicsSystem.cpp">
+			<Option target="smb"/>
+		</Unit>
+		<Unit filename="/home/caio/Área de Trabalho/jogos/super-mario-bros/src/systems/PlayerSystem.cpp">
+			<Option target="smb"/>
+		</Unit>
+		<Unit filename="/home/caio/Área de Trabalho/jogos/super-mario-bros/src/systems/RenderSystem.cpp">
+			<Option target="smb"/>
+		</Unit>
+		<Unit filename="/home/caio/Área de Trabalho/jogos/super-mario-bros/src/systems/ScoreSystem.cpp">
+			<Option target="smb"/>
+		</Unit>
+		<Unit filename="/home/caio/Área de Trabalho/jogos/super-mario-bros/src/systems/SoundSystem.cpp">
+			<Option target="smb"/>
+		</Unit>
+		<Unit filename="/home/caio/Área de Trabalho/jogos/super-mario-bros/src/systems/TileSystem.cpp">
+			<Option target="smb"/>
+		</Unit>
+		<Unit filename="/home/caio/Área de Trabalho/jogos/super-mario-bros/vendor/glad/glad.c">
+			<Option target="smb"/>
+		</Unit>
+		<Unit filename="/home/caio/Área de Trabalho/jogos/super-mario-bros/vendor/glad/glad.h">
+			<Option target="smb"/>
+		</Unit>
+		<Unit filename="/home/caio/Área de Trabalho/jogos/super-mario-bros/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/caio/Área de Trabalho/jogos/super-mario-bros/cmake/FindSDL2.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/caio/Área de Trabalho/jogos/super-mario-bros/cmake/FindSDL2_image.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/caio/Área de Trabalho/jogos/super-mario-bros/cmake/FindSDL2_mixer.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/caio/Área de Trabalho/jogos/super-mario-bros/cmake/FindSDL2_ttf.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/caio/Área de Trabalho/jogos/super-mario-bros/../../../../../usr/local/lib/cmake/SDL2/sdl2-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\SDL2\"/>
+		</Unit>
+		<Unit filename="/home/caio/Área de Trabalho/jogos/super-mario-bros/../../../../../usr/local/lib/cmake/SDL2/sdl2-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\SDL2\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
